@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:duration="20" android:drawable="@drawable/laoding_1"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_2"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_3"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_4"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_5"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_6"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_7"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_8"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_9"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_10"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_11"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_12"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_13"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_14"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_15"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_16"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_17"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_18"></item>
+    <item android:duration="20" android:drawable="@drawable/laoding_19"></item>
+</animation-list>

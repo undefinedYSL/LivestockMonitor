@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/ll_mf2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/round_corner"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="请输入猪只编号进行查询"
+            android:layout_margin="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_mf2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_toLeftOf="@id/btn_mf2"
+                android:inputType="number"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_mf2"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:background="@drawable/solid_round_corner"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="查询"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_mf2_latest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#555555"
+            android:text="编号为1的体温为39.8℃"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/brown"
+        android:layout_below="@id/ll_mf2"
+        android:layout_margin="2dp">
+    </View>
+
+    <ImageView
+        android:id="@+id/iv_mf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_divider"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/history_search"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lc_mf2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/iv_mf2">
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+
+
+</RelativeLayout>
